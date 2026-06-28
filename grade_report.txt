@@ -1,0 +1,76 @@
+============================
+STUDENT GRADE REPORT
+============================
+Total Students: 15
+Class Average: 79.4
+Highest Average: 95.2
+Lowest Average: 58.2
+
+Grade Distribution:
+------------------
+A: 3
+B: 4
+C: 5
+D: 2
+F: 1
+N/A: 0
+Name: Alice Johnson
+Average: 91.5
+Grade: A
+
+Name: Bob Smith
+Average: 79.7
+Grade: C
+
+Name: Charlie Brown
+Average: 86.5
+Grade: B
+
+Name: Diana Prince
+Average: 70.0
+Grade: C
+
+Name: Eve Williams
+Average: 95.2
+Grade: A
+
+Name: Frank Miller
+Average: 70.0
+Grade: C
+
+Name: Grace Lee
+Average: 86.8
+Grade: B
+
+Name: Henry Davis
+Average: 78.7
+Grade: C
+
+Name: Iris Wilson
+Average: 62.0
+Grade: D
+
+Name: Jack Taylor
+Average: 89.0
+Grade: B
+
+Name: Kate Anderson
+Average: 76.5
+Grade: C
+
+Name: Liam Martinez
+Average: 84.8
+Grade: B
+
+Name: Mia Thompson
+Average: 58.2
+Grade: F
+
+Name: Noah Garcia
+Average: 93.0
+Grade: A
+
+Name: Olivia White
+Average: 69.5
+Grade: D
+
