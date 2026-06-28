@@ -104,10 +104,11 @@ def generate_report(students: list[dict]) -> dict:
             student.get("english"),
             student.get("history"),
         ]
+        #calculate the average for the current student using the calculate_average function and append it to the averages list if it's not None
         average = calculate_average(grades)
         if average is not None:
             averages.append(average)
-
+#calculate the letter grade for the current student using the get_letter_grade function, and create a summary dictionary for the student containing their name, average, and letter grade. Append this summary to the student_summaries list and update the grade distribution count for the corresponding letter grade.
         letter_grade = get_letter_grade(average)
         student_summary = {
             "name": student.get("student_name", "Unknown"),
@@ -116,6 +117,7 @@ def generate_report(students: list[dict]) -> dict:
         }
         student_summaries.append(student_summary)
         grade_distribution[letter_grade] += 1
+        #calculate the total number of students, class average, highest and lowest averages. If there are no averages (i.e., all students have missing grades), set the class average, highest average, and lowest average to None.
 
     total_students = len(students)
     class_average = calculate_average(averages) if averages else None
